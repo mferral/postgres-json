@@ -6,6 +6,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=data 
       - TZ=America/Mexico_City
     ports:
       - '5432:5432'
